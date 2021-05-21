@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../img/bgi.jpg);
+}
+.cabecalho {
+    background-color: rgb(252, 252, 7);
+    width: 100%;
+    height: 30px;
+}
+.nome-aviso{
+    display: flex;
+}
+.nome-aviso a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+    margin-top: 3px;
+    font-size: 24px;
+    margin-left: 40px;
+    font-family: 'Times New Roman';
+}
+.nome-aviso a:hover{
+    color: rgb(7, 7, 150);
+}
+.nome-aviso p{
+    font-family: cursive;
+    font-size: 12px;
+    margin-top: 5px;
+    margin-left: 900px;
+}
+#voltar{
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 50px;
+    height: 34px;
+    background-color: none;
+    border: 3px solid black;
+}
+#recadinho{
+    float: right;
+    font-size: 20px;
+    font-family: 'monospace';
+    margin-top: -1px;
+    margin-right: 70px;
+    border-bottom: 1px solid purple;
+}
+.login {
+    width: 500px;
+    height: 540px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 40px;
+    text-align: center;
+    box-shadow: 0 0 3em black;
+    border-radius: 5%;
+    border: 2px solid solid;
+}
+.login label p {
+    float:left;
+    margin-left: 20px;
+}
+.login input{
+    width: 90%;
+    padding: 5px;
+}
+.login button{
+    width: 70%;
+    padding: 5px;
+    cursor: pointer;
+}
+.login h1{
+    font-size: 35px;
+    font-family: 'cursive';
+}
+#email{
+    background-image: url(../img/email.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#password{
+    background-image: url(../img/senha.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#send {
+    margin-top: 10px;
+    font-size: 13px;
+    font-family: 'fantasy';
+    padding: 3px;
+    text-align: center;
+}#send:hover{
+    background-color: yellow;
+    text-decoration: blue;
+}
+#google{
+    background-image: url(../img/google.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    background-position: 10px left;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#google:hover{
+    background-color: green;
+}
+#facebook {
+    margin-top: 10px;
+    background-image: url(../img/facebook.png);
+    background-repeat: no-repeat;
+    background-size: 30px 30px;
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#facebook:hover{
+    background-color: blue;
+}

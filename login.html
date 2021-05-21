@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/login.css">
+    <title>Login e Cadastro</title>
+</head>
+<body>
+    <div class="cabecalho">
+        <div class="nome-aviso">
+            <a href="">Cine Time</a>
+            <p>Site de redirecionamento para assistir filmes</p>
+        </div>
+    </div>
+    <div id="rest">
+        <div class="voltar">
+            <a href="main.html">
+                <button id="voltar"><img src="./img/voltar.png"  width="20px" height="20px"></button>
+            </a>
+            <a href=""><p id="recadinho">Ainda não está cadastro(a)?</p></a>
+        </div>
+    </div>
+    <div class="login">
+        <h1>Login</h1>
+        <form action="get" method="get"></form>
+            <label for="email"> <p>Endereço de Email</p>
+                <input type="email" id="email" placeholder="Digite seu email">
+            </label>
+            <label for="password"> <p>Senha</p>
+                <input type="password" id="password" placeholder="Digite sua senha">
+            </label>
+            <a href=""><p>Esqueçeu a sua senha?</p></a>
+            <label for="send">
+                <a href="main.html"><button id="send" type="submit" onclick="send()">CONTIUAR</button></a>
+            </label>
+            <h1>Ou</h1>
+            <label for="google">
+                <button id="google" type="submit">GOOGLE</button>
+            </label>
+            <label for="facebook">
+                <button id="facebook" type="submit">FACEBOOK</button>
+            </label>
+        </form>
+    </div>
+</body>
+<script src="./js/login.js"></script>
+</html>

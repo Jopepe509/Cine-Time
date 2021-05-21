@@ -20,7 +20,7 @@
     font-family: 'Times New Roman';
 }
 .nome-aviso a:hover{
-    color:red;
+    color: rgb(7, 7, 150);
 }
 .nome-aviso p{
     font-family: cursive;
@@ -42,8 +42,16 @@
     position: relative;
     border: 2px solid black;
 }
+.login-cadastro button:hover{
+    background-color: blue;
+    text-decoration: white;
+    cursor: pointer;
+}
 .login-cadastro a button{
     font-size: 15px;
+}
+.login-cadastro a:hover{
+    color: white;
 }
 .pesquisa {
     float: left;
@@ -70,4 +78,55 @@
 }
 .pesquisa button:hover{
     background-color: blue;
+}
+.menu-normal {
+    margin-left: 120px;
+    height: 50px;
+    font-family: Helvetica;
+    font-size: 20px;
+    margin-top: -50px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-normal ul{
+    list-style: none;
+    position: relative;
+}
+.menu-normal ul li{
+    width: 200px;
+    float: left;
+}
+.menu-normal a{
+    margin-top: -5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: none;
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.menu-normal ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.menu-normal ul li:hover ul{
+    display: block;
+    visibility: visible;
+}
+.menu-normal ul li ul li{
+    margin-top: 10px;
+}
+.menu-normal a:hover{
+    background-color: white;
+    border: 2px solid black;
+}
+.menu-normal ul ul li{
+    margin-left: -40px;
+    float: none;
+    border-bottom: 1px solid black;
+}
+.menu-normal ul ul li a{
+    background-color: none;
 }
