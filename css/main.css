@@ -3,7 +3,7 @@
     padding: 0 auto;
 }
 .cabecalho {
-    background-color: yellow;
+    background-image: url(../img/menu-final.jpg);
     width: 100%;
     height: 30px;
 }
@@ -43,9 +43,7 @@
     border: 2px solid black;
 }
 .login-cadastro button:hover{
-    background-color: blue;
-    text-decoration: white;
-    cursor: pointer;
+    box-shadow: 10px 5px 5px blue;
 }
 .login-cadastro a button{
     font-size: 15px;
@@ -76,15 +74,12 @@
     border-radius: 2%;
     text-align: center;
 }
-.pesquisa button:hover{
-    background-color: blue;
-}
 .menu-normal {
     margin-left: 120px;
     height: 50px;
     font-family: Helvetica;
     font-size: 20px;
-    margin-top: -50px;
+    margin-top: -100px;
     float: left;
     display: flex;
     justify-content: space-between;
@@ -121,6 +116,7 @@
 .menu-normal a:hover{
     background-color: white;
     border: 2px solid black;
+    box-shadow: 10px 5px 5px blue;
 }
 .menu-normal ul ul li{
     margin-left: -40px;
@@ -129,4 +125,176 @@
 }
 .menu-normal ul ul li a{
     background-color: none;
+}
+.threethpart {
+    background-image: url(../img/psp\ back.jpg);
+}
+.threethpart p{
+    color: white;
+    font-family: 'monospace';
+    margin-left: 30px;
+    text-align: center;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.acao img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.acao a{
+    text-decoration: none;
+    color: white;
+}
+.acao h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+}
+.aventura img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.aventura a{
+    text-decoration: none;
+    color: white;
+}
+.aventura h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.corrida img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.corrida a{
+    text-decoration: none;
+    color: white;
+}
+.corrida h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.esporte img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.esporte a{
+    text-decoration: none;
+    color: white;
+}
+.esporte h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.luta img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.luta a{
+    text-decoration: none;
+    color: white;
+}
+.luta h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.qs img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.qs a{
+    text-decoration: none;
+    color: white;
+}
+.qs h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.rpg img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.rpg a{
+    text-decoration: none;
+    color: white;
+}
+.rpg h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.tiro img{
+    width: 200px;
+    height: 300px;
+    display: inline-block;
+    margin-left: 20px;
+}
+.tiro a{
+    text-decoration: none;
+    color: white;
+}
+.tiro h1{
+    margin-left: 190px;
+    font-family: Haettenschweiler;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
+.menu-final{
+    background-image: url(../img/menu-final.jpg);
+    height: 40px;
+}
+.menu-final a{
+    margin-left: 20px;
+    font-size: 30px;
+    font-family: fantasy;
+    text-decoration: none;
+    color: black;
+}
+.menu-final ul li{
+    margin-left: 60px;
+    display:inline-block;
+    list-style: none;
+}
+.final{
+    background-image: url(../img/final.jpg);
+}
+.final a{
+    text-decoration: none;
+}
+.final h1{
+    color: yellow;
+}
+.final h1:hover{
+    color: blue;
+}
+.final b{
+    color: blue;
+}
+.final b:hover{
+    color:yellow;
 }
