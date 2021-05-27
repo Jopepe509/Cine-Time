@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    background-image: url(../img/final.jpg);
+}
+#voltar{
+    cursor: pointer;
+    float: left;
+    margin-left: 30px;
+    margin-top: 5px;
+    width: 50px;
+    height: 34px;
+    background-color: none;
+    border: 3px solid black;
+}
+#cadastro {
+    width: 500px;
+    height: 540px;
+    background-color: white;
+    margin-left: 400px;
+    margin-top: 60px;
+    text-align: center;
+    box-shadow: 0 0 3em black;
+    border-radius: 5%;
+    border: 2px solid solid;
+}
+#cadastro label{
+    font-family: cursive;
+    font-size: 15px;
+    float:left;
+    margin-left: 20px;
+}
+#cadastro input{
+    width: 90%;
+    padding: 5px;
+}
+#cadastro button{
+    margin-top: 14px;
+    width: 70%;
+    padding: 5px;
+    cursor: pointer;
+}
+#cadastro h1{
+    font-size: 35px;
+    font-family: cursive;
+}
