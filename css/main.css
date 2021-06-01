@@ -75,6 +75,7 @@
     text-align: center;
 }
 .menu-normal {
+    text-transform: uppercase;
     margin-left: 120px;
     height: 50px;
     font-family: Helvetica;
@@ -274,6 +275,9 @@
     font-family: fantasy;
     text-decoration: none;
     color: black;
+}
+.menu-final a:hover{
+    color: blue;
 }
 .menu-final ul li{
     margin-left: 60px;
