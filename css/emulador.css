@@ -1,0 +1,104 @@
+body{
+    background-image: url(../img/pspw.jpg);
+}
+.popup .over{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0, 7);
+    z-index: 1;
+    display: none;
+}
+.popup .popup-sms{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    background: yellow;
+    width: 450px;
+    height: 220px;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 4px 5px black;
+    border-radius: 10%;
+}
+.popup-sms h1{
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.popup-sms p{
+    font-size: 15px;
+    font-family: monospace;
+    text-transform: uppercase;
+}
+.popup .close-btn{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    height: 30px;
+    width: 40px;
+    background: #222;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.popup.active .over{
+    display: block;
+}
+.popup.active .popup-sms{
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -50%) scale(1);
+}
+#emulador-mesagem{
+    width: 300px;
+    height: 70px;
+    float: left;
+    margin-left: 550px;
+    margin-top: -200px;
+    font-size: 30px;
+    font-family: cursive;
+    text-transform: uppercase;
+}
+.popup{
+    width: 100%;
+    height: 300px;
+    border-bottom: 4px solid black;
+    background-image: url(../img/popupBackground.png);
+}
+.popup a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.link-ppsspp1{
+    background-image: url(../img/pspblue.jpg);
+    height: 70px;
+    margin-top: 60px;
+}
+.link-ppsspp1 h1{
+    margin-top: 10px;
+    color: white;
+    margin-left: 140px;
+    font-size: 25px;
+    font-family: cursive;
+}
+.link-ppsspp2{
+    margin-top: 60px;
+    background-image: url(../img/pspgold.jpg);
+    height: 70px;
+}
+.link-ppsspp2 h1{
+    color: white;
+    margin-left: 140px;
+    font-size: 25px;
+    font-family: cursive;
+}

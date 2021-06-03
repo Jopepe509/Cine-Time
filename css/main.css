@@ -275,6 +275,7 @@
     font-family: fantasy;
     text-decoration: none;
     color: black;
+    text-transform: uppercase;
 }
 .menu-final a:hover{
     color: blue;
