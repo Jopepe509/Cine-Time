@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0 auto;
+    background-image: url(../img/b.jpg);
+}
+ body a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+.us{
+    color: white;
+    text-align: center;
+    width:45%;
+    height: 170px;
+    margin-left: 20px;
+    background-image: url(../img/apresentation.jpg);
+}
+.us h1{
+    font-size: 30px;
+    font-family: cursive;
+}
+.us p{
+    font-size: 25px;
+    font-family: monospace;
+}
+.box{
+    width: 300px;
+    color: white;
+    float: right;
+    width: 50%;
+    font-size: 18px;
+    font-family: cursive;
+    height: 500px;
+    margin-top: -160px;
+    text-align: center;
+    margin-right: 30px;
+    text-transform: uppercase;
+}
+.box input{
+    margin-left: 130px;
+    display: block;
+    width: 400px;
+    padding: 10px;
+    text-align: left;
+    font-family: sans-serif;
+    border: 2px solid white;
+}
+.box textarea{
+    margin-left: 130px;
+    display: block;
+    width: 400px;
+    border: 2px solid white;
+}
+.box label{
+    margin-left: -220px;
+    text-transform: uppercase;
+}
+.box button{
+    border: 2px solid white;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 0px;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-family: cursive;
+}
+.box button:hover{
+    background-color: yellow;
+}
+.contato{
+    margin-top: 350px;
+}
+.contato h1{
+    font-size: 35px;
+    font-family: cursive;
+    margin-left: 40px;
+    color: white;
+}
+.contato img{
+    margin-left: 20px;
+}
+.contato p{
+    margin-left: 20px;
+    font-size: 20px;
+    font-family: monospace;
+    color: white;
+}
