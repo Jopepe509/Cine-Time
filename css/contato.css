@@ -46,12 +46,16 @@
     text-align: left;
     font-family: sans-serif;
     border: 2px solid white;
+    color: white;
+    font-size: 17px;
 }
 .box textarea{
     margin-left: 130px;
     display: block;
     width: 400px;
     border: 2px solid white;
+    color: white;
+    font-size: 20px;
 }
 .box label{
     margin-left: -220px;
@@ -81,7 +85,9 @@
     color: white;
 }
 .contato img{
-    margin-left: 20px;
+    margin-left: 200px;
+    width: 100px;
+    height: 100px;
 }
 .contato p{
     margin-left: 20px;

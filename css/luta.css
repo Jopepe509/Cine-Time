@@ -1,0 +1,121 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    background-image: url(../img/b.jpg);
+    width: 100%;
+    height: 80px;
+}
+.menu-normal {
+    text-transform: uppercase;
+    margin-left: 120px;
+    height: 50px;
+    font-family: cursive;
+    font-size: 20px;
+    margin-top: 10px;
+    float: left;
+    display: flex;
+    justify-content: space-between;
+}
+.menu-normal ul{
+    list-style: none;
+    position: relative;
+}
+.menu-normal ul li{
+    width: 250px;
+    float: left;
+}
+.menu-normal a{
+    margin-top: -5px;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    background-color: none;
+    color: black;
+    background-color: yellow;
+    border: 2px solid black;
+}
+.menu-normal ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+.menu-normal ul li:hover ul{
+    display: block;
+    visibility: visible;
+}
+.menu-normal ul li ul li{
+    margin-top: 10px;
+}
+.menu-normal a:hover{
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 10px 5px 5px blue;
+}
+.menu-normal ul ul li{
+    margin-left: -40px;
+    float: none;
+    border-bottom: 1px solid black;
+}
+.menu-normal ul ul li a{
+    background-color: none;
+}
+.pagina1 button{
+    width:200px;
+    height:350px;
+    margin-left: 50px;
+    margin-top: 10px;
+    font-size: 17px;
+    font-family: cursive;
+    background: transparent;
+    border: transparent;
+    cursor: pointer;
+}
+.pagina1 img{
+    width:200px;
+    height:300px;
+}
+.botoes ul{
+    position: relative;
+    background: #fff;
+    display: flex;
+    padding: 10px 20px;
+    border-radius: 50px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, .2);
+    margin-left: 400px;
+}
+.botoes ul li{
+    list-style: none;
+    line-height: 50px;
+    margin: 0 5px;
+}
+.botoes ul li.pageNumber{
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+}
+.botoes ul li a{
+    display: block;
+    text-decoration: none;
+    color: #777;
+    font-weight: 600;
+    border-radius: 50%;
+}
+.botoes ul li.pageNumber:hover a, 
+.botoes ul li.pageNumber:hover a.active{
+    background: #333;
+    color: #fff;
+}
+.botoes ul li:first-child {
+    margin-right: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.botoes ul li:last-child {
+    margin-left: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
