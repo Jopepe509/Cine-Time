@@ -287,6 +287,8 @@
 }
 .final{
     background-image: url(../img/final.jpg);
+    width: 100%;
+    height: 40px;
 }
 .final a{
     text-decoration: none;
@@ -302,4 +304,10 @@
 }
 .final b:hover{
     color:yellow;
+}
+.meio p{
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -20px;
 }

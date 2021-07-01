@@ -119,3 +119,39 @@ body {
     font-weight: 700;
     font-size: 20px;
 }
+.redes img{
+    width: 30px;
+    height: 30px;
+    margin-left: 30px;
+}
+.footer{
+    display: block;
+    width: 100%;
+    height: 180px;
+    background-color: gray;
+}
+.redes a{
+    text-decoration: none;
+    color: black;
+}
+.redes p{
+    margin-left: 70px;
+    margin-top: -30px;
+}
+.redes h1{
+    font-size: 15px;
+    font-family: cursive;
+    margin-left: 50px;
+}
+.logo img{
+    width: 250px;
+    height: 150px;
+    float: right;
+    margin-right: 30px;
+    margin-top: -165px;
+}
+.meio p{
+    text-align: center;
+    font-size: 14px;
+    margin-top: -30px;
+}
